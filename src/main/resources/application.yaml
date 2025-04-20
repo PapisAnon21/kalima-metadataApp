@@ -6,7 +6,7 @@ spring:
     name: metadataApp
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql:3306/kalima
+    url: jdbc:mysql://localhost:3306/kalima
     username: papis
     password: papis
   jpa:
