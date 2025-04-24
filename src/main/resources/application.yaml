@@ -14,3 +14,8 @@ spring:
       ddl-auto: update
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
+
+api:
+  chatbot:
+    base:
+      url: 'http://localhost:8000'
